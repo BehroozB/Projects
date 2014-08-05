@@ -1,0 +1,112 @@
+html{
+    background: url(shutterstock_70763086.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#chart_container {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 120px 0 0 264px;
+}
+p {
+        margin-left: 330px;       
+        font-size: 2em;
+        color: #ffffff;
+        text-shadow: 2px 2px #000000;
+}
+
+
+#y_axis {
+        position: absolute;
+        height: 520.4px !important;
+        width: 40px;
+        left: 232px;
+
+}
+.x_axisContainer{
+        position: relative;
+        font-size: 22px;
+        font-weight: bold;
+
+}
+#x_one{
+        display: inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 43px;
+}
+#x_two{
+        display:inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 173px;
+}
+#x_three{
+        display:inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 310px;
+}
+#x_four{
+        display:inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 458px;
+}
+#x_five{
+        display:inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 622px;
+}
+#x_six{
+        display:inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 745px;
+}
+#x_seven{
+        display:inline-block;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 870px;
+}
+
+/*  Below are the adjustments to the hover feature  */
+
+.rickshaw_graph .detail .x_label {
+        display: none;
+}
+
+.rickshaw_graph .detail {
+        width: 0px !important;
+}
+
+.rickshaw_graph .detail .dot {
+        margin-left: 60px !important;
+}
+
+.rickshaw_graph .detail .item.left {
+    left: 58px !important;
+}        
+.rickshaw_graph .y_grid .tick, .rickshaw_graph .x_grid_d3 .tick{
+    stroke:rgba(0, 0, 0, 0.50) !important;
+    stroke-dasharray: 0, 1 !important;
+}
+.rickshaw_graph .y_ticks text, .rickshaw_graph .x_ticks_d3 text{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
