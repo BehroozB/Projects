@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="../rickshaw/rickshaw.min.css" rel="stylesheet" />
+	<link href="../rickshaw/rickshaw.css" rel="stylesheet" />
+	<link href="graphStylesheet.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header><span id="date"></span> - Margin and Revenue</header>
+<script>
+    var d = new Date();
+    document.getElementById("date").innerHTML = d.toDateString();
+</script>
+
+
+	<div id="legend"></div>
+	<div class="chart_container">
+		<div id="y_axis"></div>
+		<div class="chart"></div>
+		<div id="x_axis"></div>
+	</div>
+
+
+</body>
+	
+	<script src="../rickshaw/vendor/d3.min.js"></script>
+	<script src="../rickshaw/vendor/d3.layout.min.js"></script>
+	<script src="../rickshaw/vendor/d3.v3.js"></script>
+	<script src="../rickshaw/rickshaw.min.js"></script>
+	<script src="../rickshaw/rickshaw.js"></script>
+	<script src="../jquery-1.11.1.min.js"></script>
+	<script src="index.js"></script>
+</html>
