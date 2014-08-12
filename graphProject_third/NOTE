@@ -1,0 +1,4 @@
+On my third attempt with rickshaw.js I added my own custom x-axis. The graph Renders two data points one 
+being revenue and the other being media cost. Additionally the x-axis has been rotated -45% so the labels 
+don’t over lap each other using d3. Additionally the header updates the date so the title can reflect that it 
+is the most current data.
