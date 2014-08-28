@@ -8,7 +8,7 @@
         $.each(data[0].values, function (i, item) {
             coordinate = {
                 'x': parseInt(item.x),
-                'y': item.y 
+                'y': parseInt(item.y) 
             };
             graphData.push(coordinate); //pushs the new translated data to a new variable called graphData
         });
