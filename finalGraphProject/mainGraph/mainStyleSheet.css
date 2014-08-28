@@ -1,0 +1,47 @@
+body{
+	margin: 0 auto;
+}
+
+#byMargin{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+#byNumberOfCampaigns{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+
+#byAdvertiser{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+#byVertical{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+#byProduct{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+}
+#byTrafficker{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+}
+#byDay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+}
